@@ -30,4 +30,5 @@ for contributionCalendar in contributionCalendars:
 
 print(totalDaysOfEachLevel)
 plt.pie(totalDaysOfEachLevel, colors=["#e1e4e8", "#85e89d", "#34d058", "#22863a", "#144620"])
+plt.legend()
 plt.show()
